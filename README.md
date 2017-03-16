@@ -25,8 +25,8 @@ lua_max_running_timers 1;
         location /hglist {
                 default_type 'text/html';
                 content_by_lua_file /data/www/waf/hgListPage.lua;
-#		allow x.x.x.x;  ## 只允许指定的IP访问
-#		deny all;
+		#allow x.x.x.x;  ## 只允许指定的IP访问
+		#deny all;
 
         }
 ```
