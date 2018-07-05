@@ -24,7 +24,8 @@ lua_max_running_timers 1;
 
 
 ## 查看HttpGuard 黑/白名单列表
-# 在 server { } 块中添加以下内容, 重启Nginx, 通过 http://[server_name]/hglist   可查看 HttpGuard 黑/白名单列表
+
+在 server { } 块中添加以下内容, 重启Nginx, 通过 http://[server_name]/hglist   可查看 HttpGuard 黑/白名单列表
 
 ```
         location /hglist {
